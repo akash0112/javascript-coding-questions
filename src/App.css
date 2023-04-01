@@ -1,0 +1,40 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.link{
+  text-decoration: none;
+  color: rgb(22, 24, 22);
+  line-height: 2rem;
+}
+.link:hover{
+  color: black;
+}
+.scroll {
+  max-height:550px;
+  overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.scroll::-webkit-scrollbar
+{
+    width: 5px;
+    opacity: 0.5;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    opacity: 0.5;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+.positionTop{
+  top: 60px;
+}
